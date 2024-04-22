@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="header_title">FORMULARIO DE REGISTRO</h1>
+            <p id="description" class="header_subtitle">Cuéntanos sobre ti y tus intereses en nuestra plataforma</p>
+        </header>
+        <form id="survey-form" action="#" class="form">
+            <fieldset>
+                <legend>Información personal</legend>
+                <div>
+                    <div class="form_input form_input-camp">
+                        <label id="name-label" for="name">Nombre:</label>
+                        <input id="name" class="form_input-text" type="text" placeholder="Lionel Andrés Messi" required>
+                    </div>
+                    <div class="form_input form_input-camp">
+                        <label id="email-label" for="email">Email:</label>
+                        <input class="form_input-text" type="email" id="email" placeholder="liomessi@escaloneta.com.ar" required>
+                    </div>
+                    <div class="form_input form_input-camp">
+                        <label id="number-label" for="age">Edad:</label>
+                        <input class="form_input-text" type="number" id="number" placeholder="36" min="18" max="150">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Información de interés</legend>
+                <div class="form_input">
+                    <label class="form_input-label" for="select">¿Cuál es tu equipo favorito?</label>
+                    <select id="dropdown" id="select">
+                        <option value="team1">River</option>
+                        <option value="team2">Boca</option>
+                        <option value="team3">San Lorenzo</option>
+                        <option value="team4">Racing</option>
+                    </select>
+                </div>
+                <div class="form_input form_input-interes">
+                    <label class="form_input-label">¿Cuál es tu principal interés en la plataforma?</label>
+                    <div class="interes_options">
+                        <label for="promedio">
+                            <input type="radio" name="interes" id="promedio" value="interes">
+                            Copa de la Liga
+                        </label>
+                        <label for="calendar">
+                            <input type="radio" name="interes" id="calendar
+                            " value="interes">
+                            Copa Libertadores
+                        </label>
+                        <label for="cup"> 
+                            <input type="radio" name="interes" id="cup" value="interes">
+                            Copa Sudamericana
+                        </label>
+                    </div>
+                </div>
+                <div class="form_input form_input-interes">
+                    <label class="form_input-label">¿Cuáles son tus jugadores favoritos de la liga argentina?</label>
+                    <div class="interes_options">
+                        <label for="casco"><input type="checkbox" id="casco" value="player" >Milton Casco</label>
+                        <label for="lopez"><input type="checkbox" id="lopez" value="player" >Hernán López Muñoz</label>
+                        <label for="armani"><input type="checkbox" id="armani" value="player" >Franco Armani</label>
+                        <label for="solari"><input type="checkbox" id="solari" value="player" >Pablo Solari</label>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form_input">
+                <label class="form_input-label" for="passion">Cuéntanos cómo nació tu pasión por el fútbol</label>
+                <textarea id="passion" name="passion" cols="30" rows="10"></textarea>
+            </div>
+            <div class="boton">
+                <button id="submit" class="boton_input" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

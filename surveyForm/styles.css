@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2TPL4U6Z6NDZLKKVK46YWXWWPI.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+.form {
+    background-color: #0009;
+    backdrop-filter: blur(70px);
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.header {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.header_title {
+    letter-spacing: 1.5px;
+}
+
+.header_subtitle {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+legend {
+    color: #9e9c9c;
+    padding: 0 5px;
+}
+
+fieldset {
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.form_input-camp {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input-text,
+select {
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.form_input-label,
+.form_input p {
+    margin: 10px 0;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.form_input-interes {
+    display: flex;
+    flex-direction: column;
+}
+
+.interes_options label {
+    font-size: 18px;
+}
+
+.form_input p {
+    margin-bottom: 10px;
+}
+
+.form_input-interes label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boton {
+    display: flex;
+}
+
+.boton_input {
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 50%;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 242, 255, 1);
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
